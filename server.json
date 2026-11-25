@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.qianliu-com/qianliu-mcp",
+  "title": "Qianliu (千流)",
+  "description": "Verified official websites, China access & uptime checks, and software alternatives via Qianliu.",
+  "version": "0.1.1",
+  "websiteUrl": "https://qianliu.com",
+  "icons": [
+    {
+      "src": "https://qianliu.com/static/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/qianliu-com/qianliu-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://qianliu.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "qianliu-mcp",
+      "version": "0.1.1",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

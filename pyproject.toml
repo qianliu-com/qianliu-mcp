@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "qianliu-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "千流（qianliu.com）MCP Server：查软件与网站的核验官网、国内直连实测状态、收费登录事实与同类替代品对比"
 readme = "README.md"
 license = "MIT"

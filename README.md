@@ -1,6 +1,6 @@
 # qianliu-mcp — 千流软件与网站实测档案 MCP Server
 
-[千流（qianliu.com）](https://qianliu.com) 官方只读 MCP Server。让 Claude Desktop、Cursor、Cherry Studio、Trae、阿里云百炼等 AI 助手实时查询 **1.1 万+ 软件与网站的核验官网、国内直连可访问性实测、费用与登录要求、政务办事官方入口，以及 11 万+ 条交叉核实的同类替代品关系**。
+[千流（qianliu.com）](https://qianliu.com) 官方只读 MCP Server。让 Claude Desktop、Cursor、Cherry Studio、Trae、阿里云百炼等 AI 助手实时查询 **软件与网站的核验官网、国内直连可访问性实测、费用与登录要求、政务办事官方入口，以及经交叉核实的同类软件替代品关系**。
 
 ## 解决什么问题？
 
@@ -72,13 +72,13 @@ https://qianliu.com/api/v1/openapi.json
 
 ## License
 
-MIT · 数据来源：[千流 qianliu.com](https://qianliu.com)
+MIT · 数据来源：[千流 qianliu.com](https://qianliu.com) · [Glama MCP 目录](https://glama.ai/mcp/connectors/com.qianliu/qianliu)
 
 ---
 
 ## English Overview
 
-**qianliu-mcp** is the official read-only MCP (Model Context Protocol) server for [Qianliu (qianliu.com)](https://qianliu.com), a continuously monitored software & website archive covering **11,000+ tools/websites** and **110,000+ cross-verified software alternatives**.
+**qianliu-mcp** is the official read-only MCP (Model Context Protocol) server for [Qianliu (qianliu.com)](https://qianliu.com), a continuously monitored software & website archive with verified official URLs, real-time China direct-access & uptime checks, and cross-verified software alternatives.
 
 ### What It Does
 - **`lookup_site_or_software(query)`**: Look up verified official websites, real-time China direct-access / uptime status, pricing & login requirements, and verified official public-service entry tables.
@@ -112,3 +112,7 @@ MIT · 数据来源：[千流 qianliu.com](https://qianliu.com)
 ```
 
 OpenAPI 3.0.1 spec for cloud agent platforms: `https://qianliu.com/api/v1/openapi.json`
+
+Listed on [Glama](https://glama.ai/mcp/connectors/com.qianliu/qianliu).
+
+<!-- mcp-name: io.github.qianliu-com/qianliu-mcp -->

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qianliu-mcp"
+version = "0.1.0"
+description = "千流（qianliu.com）MCP Server：查软件与网站的核验官网、国内直连实测状态、收费登录事实与同类替代品对比"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Qianliu", email = "kefu@qianliu.com" }
+]
+keywords = ["mcp", "qianliu", "alternatives", "software-directory", "official-website", "china-accessibility"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.2.0",
+]
+
+[project.urls]
+Homepage = "https://qianliu.com"
+Collections = "https://qianliu.com/collection/"
+Repository = "https://github.com/qianliu-com/qianliu-mcp"
+Issues = "https://github.com/qianliu-com/qianliu-mcp/issues"
+
+[project.scripts]
+qianliu-mcp = "qianliu_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/qianliu_mcp"]
